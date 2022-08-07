@@ -1,0 +1,19 @@
+num1 = int(input('Введите первое число:'))
+
+action = input('Введите действие:')
+
+num2 = int(input('Введите второе число:'))
+
+a = (num1 + num2)
+b = (num1 * num2)
+c = (num1 / num2)
+d = (num1 - num2)
+
+if action == '+':
+    print('Result:', a)
+elif action == '*':
+    print('Result:', b)
+elif action == '-':
+    print('Result:', d)
+elif action == '/':
+    print('Result:', c)
