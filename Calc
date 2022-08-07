@@ -1,6 +1,6 @@
 num1 = int(input('Введите первое число:'))
 
-action = input('Введите действие:')
+action = input('Введите действие(+, -, /, *):')
 
 num2 = int(input('Введите второе число:'))
 
@@ -17,3 +17,5 @@ elif action == '-':
     print('Result:', d)
 elif action == '/':
     print('Result:', c)
+else:
+    print('Ошибка! Введите одну из команд: +, -, /, *!')
